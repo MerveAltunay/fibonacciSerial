@@ -1,7 +1,7 @@
 # fibonacciSerial
 Developing a rest service that reproduces the fibonacci serial another application that serves a html page to show the results.
 
-Technologies used: Java, Spring Framework, RESTFul services and Thymeleaf template engine.
+Technologies used: Java, Spring Framework, RESTFul services and Thymeleaf template engine, H2 database
 
 Template Engine:
 - Created a html page that has an input field for a single number and a submit button to trigger the api.
@@ -10,4 +10,5 @@ Template Engine:
 
 
 Written the unit tests.
+
 Added the dockerfile.
