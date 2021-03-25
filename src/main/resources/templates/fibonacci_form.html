@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Fibonacci Calculator</title>
+</head>
+<body>
+
+<div align="center">
+    <h1>Fibonacci Calculator</h1>
+
+    <form action="#" th:action="@{/fibonacci}" th:object ="${fibonacci}" method="get">
+        <label>Please enter the fibonacci order:</label>
+        <input type="text" th:field="*{number}"/>
+
+        <button type="submit">Calculate</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
