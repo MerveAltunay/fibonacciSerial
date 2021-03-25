@@ -1,4 +1,4 @@
-# fibonacciSerial
+# Fibonacci Serial
 Developing a rest service that reproduces the fibonacci serial another application that serves a html page to show the results.
 
 Technologies used: Java, Spring Framework, RESTFul services and Thymeleaf template engine, H2 database
